@@ -1,0 +1,10 @@
+imagenes:
+- https://www.pinterest.es/pin/557813103821634098/
+- http://www.freeiconspng.com/img/35754
+
+font:
+- https://es.cooltext.com/Logo-Design-Keen?Font=1311
+
+sonido:
+- http://www.classicgaming.cc/classics/space-invaders/sounds
+- https://twistedwave.com/online/

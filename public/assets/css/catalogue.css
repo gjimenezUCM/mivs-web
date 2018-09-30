@@ -1,0 +1,727 @@
+/* FontAwesome for working BootSnippet :> */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@font-face {
+    font-family: 'invaders'; /*a name to be used later*/
+    src: url('/assets/fonts/VCR_OSD.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'hello-world'; /*a name to be used later*/
+    src: url('/assets/fonts/hello-world.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'invaders-icons'; /*a name to be used later*/
+    src: url('/assets/fonts/invaders-icons.ttf'); /*URL to font*/
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+/*
+Colors: 
+- black
+- white
+- #88d317 (green)
+ */
+html,body{
+    background: black;
+    color: white;
+    font-size: 16px;
+}
+
+.border-img {
+    height: 100px;
+    margin: 1.5rem;
+    background-color: black;
+    background-image: url('/assets/imagenes/Tile_cabecera.jpg')
+}
+
+.div-title {
+    margin: 1.2rem;
+    text-align: center;
+    border: 15px solid white;
+}
+
+.big-title {
+    margin: 1.5rem 0;
+    font-family: "invaders";
+    font-size: 5rem;
+    text-transform: uppercase;
+    line-height: 4.5rem; 
+}
+
+span.highlight {
+    color: #88d317;
+}
+
+
+
+.img_title {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.img_title2 {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.img_title3 {
+    width: 70%;
+    max-width: 700px;
+    margin-bottom: 20px;
+}
+
+.tutorial {
+    margin-left: 2%;
+    text-align: center;
+}
+
+.img_100 {
+    height: 200px;
+    width: 200px;
+}
+
+.img_50 {
+    height: 150px;
+    width: 150px;
+}
+
+.mensajes_class_left{
+    background-color: #00000045;
+    margin-right: 10px;
+}
+
+.mensajes_class_right{
+    background-color: #00000045;
+    margin-left: 10px;
+}
+
+.url_class{
+    margin-top: 30px;
+    height: 120px;
+    width: 150px;
+}
+
+@media (min-width: 768px) and (max-width: 910px){
+    .col-md-6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .my-md {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 999px) {
+    .col-md-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 910px) and (max-width: 1180px) {
+    .col-md-4 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+
+.mySubtitle{
+    text-align: center;
+}
+
+.miEnlace {
+    color: blue;
+}
+
+.QR_class{
+    width: 150px;
+    height: 150px;
+}
+
+#QR {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#inicio{
+    display: block;
+}
+
+.tele {
+    position: absolute;
+    text-align: right;
+    width: 100%;
+}
+
+
+
+#main{
+    margin-top: 50px;
+}
+
+.width_50 {
+    width: 50%;
+}
+
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #108d6f;
+    border-color: #108d6f;
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007b5e;
+    border-color: #007b5e;
+}
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+/************************************************
+ * NAVBAR
+ ************************************************/
+
+#menu {
+  min-height: 1px;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+.nav > li > a,
+.nav > li > a:focus {
+  font-family: "invaders";
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: white;
+  margin: 0 0.5rem;
+  background-color: transparent;
+  padding: 1rem 1rem;
+  border: 2px solid white;
+
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus,
+.nav > li > a:hover {
+  background-color: #212121;
+  border-color: #88d317;
+}
+
+.nav > li > a:hover {
+  color: #88d317;
+  text-decoration: none;
+}
+
+
+ul.navbar-nav>li.active>a { 
+  border-color: #88d317;
+}
+
+@media (max-width: 992px) {
+  button:focus {
+    outline: none;
+  }
+
+  .navbar-toggler {
+    display: block;
+    width: 100%; 
+    background-color: #212121;
+    height: 2rem; 
+    border: 2px solid #88d317;
+  }
+
+
+  .navbar-toggler-icon {
+    text-transform: uppercase;
+    font-family: "invaders";
+    color: white;
+    content: "MENU";
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  ul.navbar-nav>li.active>a { 
+    border-bottom: none;
+  }
+
+  .nav > li {
+    width: 100%;
+    border: 2px solid white;
+  }
+  .nav > li > a,
+  .nav > li > a:focus {
+      font-family: "invaders";
+      font-size: 1.2rem;
+      margin: 0 0;
+      background-color: transparent;
+      padding: 0rem 0rem;
+      border: none;
+  }
+
+}
+
+/** END NAVBAR */
+
+/************************************************
+ * TEXT CONTAINER
+ ************************************************/
+.text-container {
+    margin: 1.2rem;
+    padding:1.2rem;
+    border: 15px solid white;
+    font-family: "hello-world";
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.text-container a {
+    color: #88d317
+}
+
+.text-container ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.text-container li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.text-container li:before {
+    font-family: "invaders-icons";
+    content: "L";
+    padding-right: 1rem;
+}
+
+.text-container ul>li ul li:before {
+    font-family: "invaders-icons";
+    content: "o";
+    padding-right: 1rem;
+}
+
+@media (max-width: 992px) {
+    .text-container {
+        padding: 1.2rem;
+        font-size: 1rem;
+    }
+}
+
+/** END TEXT CONTAINER */
+
+
+/************************************************
+ * FOOTER
+ ************************************************/
+
+footer {
+    font-family: "invaders";
+    font-size: .8rem;
+    margin-bottom: 1.5rem;
+}
+
+footer .copyright-text {
+    padding-top: 1.5rem;
+    padding-right: 1.5rem;
+    text-align: right;
+}
+footer img {
+    max-height: 3rem;
+}
+
+@media (max-width: 992px) {
+    footer .copyright-text {
+        padding-top: 1rem;
+        padding-right: 0;
+        text-align: center;
+    }
+    footer .logo {
+        text-align: center;
+    }
+}
+
+/** END FOOTER */
+
+
+/************************************************
+ * CARDS
+ ************************************************/
+#team .card {
+    border: 5px solid white;
+    background:black;
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    //position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+
+    margin-left:-150px; /** 1/2 .frontside width **/
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside, .frontside .card,
+.backside, .backside .card {
+    width: 300px;
+    height: 350px;
+}
+
+.frontside, .frontside .card{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.frontside .card-body,
+.backside .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #88d317;
+    font-family: 'invaders';
+    font-size: 2rem;
+    text-transform: uppercase;
+    border: 2px solid white;
+    padding: .8rem 0;
+}
+
+
+.frontside .card .card-body .card-title {
+    margin: 1.25rem;
+}
+
+.backside .card .card-body .card-title {
+    margin-top: 1rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    text-align: left;
+}
+
+.frontside .card .card-text{
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    font-family: 'hello-world';
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.backside .card .card-text {
+    padding: 1rem;
+    background-color: white;
+    color: black;
+    //height: 190px;
+    font-family: 'hello-world';
+    font-size: 1rem;
+}
+
+.no-padding{
+    padding: 0rem;
+}
+
+.backside .card .card-body img {
+    width: 100%;
+    height: 250px;
+}
+
+.button-play{
+    margin-bottom: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    //position: absolute;
+    //top: calc(350px - 70px - 20px);
+    //left: calc(300px / 2  - 70px /2 - 5px);
+    //padding: 8px;
+    //border-radius: 5px;
+    //font-size: 22px;
+    //text-decoration: none;
+    //color: #fff;
+    //background-color: #55acee;
+    //box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.button-play .button-image {
+    width: 60px;
+    height:60px;  
+    background-image: url("/assets/imagenes/boton-play.jpg");
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.button-play:hover {
+    cursor: pointer;
+}
+.button-play:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
+}
+
+@media (max-width: 770px) {
+    .big-title {
+        font-size: 2rem;
+        line-height: 2rem; 
+    }   
+}
+
+
+@media only screen and (max-width: 770px) {
+    
+
+    .backside {
+        top: 0;
+        left: 50%;
+
+        margin-left:-105px;
+        background: white;
+    }
+
+    .frontside, .frontside .card,
+    .backside, .backside .card {
+        width: 210px;
+        height: 260px;
+    }
+
+    .frontside .card .card-body img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .backside .card .card-body img {
+        width: 210px;
+        height: 100px;
+    }
+
+    .frontside .card .card-body p {
+        margin: 0.75rem;
+    }
+
+    .backside .card .card-body p {
+        margin-top: 0.5rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        font-size: 12px;
+    }
+
+    .backside .card .card-text {
+        margin-top: 0.5em;
+    }
+
+    .button-play{
+        top: 80%;
+        left: 31%;
+
+        width: 80px;
+        height: 35px;
+
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 18px;
+
+        box-shadow: 0px 5px 0px 0px #3C93D5;
+
+    }
+
+    .button-play:hover {
+        cursor: pointer;
+    }
+    .button-play:active {
+        transform: translate(0px, 5px);
+        -webkit-transform: translate(0px, 5px);
+        box-shadow: 0px 1px 0px 0px;
+    }
+
+
+    .image-flip.unflip .backside {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+        border-radius: .25rem;
+    }
+
+    .image-flip.unflip .frontside {
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+    }
+
+}
+
+
+@media only screen and (max-width: 425px) {
+    
+
+    .backside {
+        top: 0;
+        left: 50%;
+
+        margin-left:-100px;
+        background: white;
+    }
+
+    .frontside, .frontside .card,
+    .backside, .backside .card {
+        width: 200px;
+        height: 220px;
+    }
+
+    .frontside .card .card-body img {
+        margin-top: 10px;
+        width: 65px;
+        height: 65px;
+    }
+
+    .backside .card .card-body img {
+        width: 200px;
+        height: 70px;
+    }
+
+    .frontside .card .card-body p {
+        margin: 0.7rem;
+        font-size: 13px;
+    }
+
+    .frontside .card .card-body .card-title {
+        font-size: 20px;
+    }
+
+
+    .backside .card .card-body p {
+        margin-top: 0.3rem;
+        font-size: 11px;
+    }
+
+    .backside .card .card-text {
+        margin-top: 0.1em;
+    }
+
+    .button-play{
+        top: 78%;
+        left: 23%;
+
+        width: 110px;
+        height: 35px;
+
+        padding: 2px;
+        border-radius: 5px;
+        font-size: 19px;
+
+        box-shadow: 0px 5px 0px 0px #3C93D5;
+
+    }
+
+    .frontside .button-play{
+        display: none;
+    }
+
+    .button-play:hover {
+        cursor: pointer;
+    }
+    .button-play:active {
+        transform: translate(0px, 5px);
+        -webkit-transform: translate(0px, 5px);
+        box-shadow: 0px 1px 0px 0px;
+    }
+
+}
