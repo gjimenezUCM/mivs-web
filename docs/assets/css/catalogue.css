@@ -2,16 +2,16 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @font-face {
     font-family: 'invaders'; /*a name to be used later*/
-    src: url('/assets/fonts/VCR_OSD.ttf'); /*URL to font*/
+    src: url('../fonts/VCR_OSD.ttf'); /*URL to font*/
 }
 @font-face {
     font-family: 'hello-world'; /*a name to be used later*/
-    src: url('/assets/fonts/hello-world.ttf'); /*URL to font*/
+    src: url('../fonts/hello-world.ttf'); /*URL to font*/
 }
 
 @font-face {
     font-family: 'invaders-icons'; /*a name to be used later*/
-    src: url('/assets/fonts/invaders-icons.ttf'); /*URL to font*/
+    src: url('../fonts/invaders-icons.ttf'); /*URL to font*/
 }
 
 /*----------------------------------------------------------------------------------------------------------------*/
@@ -31,7 +31,7 @@ html,body{
     height: 100px;
     margin: 1.5rem;
     background-color: black;
-    background-image: url('/assets/imagenes/Tile_cabecera.jpg')
+    background-image: url('../imagenes/Tile_cabecera.jpg')
 }
 
 .div-title {
@@ -541,7 +541,7 @@ footer img {
 .button-play .button-image {
     width: 60px;
     height:60px;  
-    background-image: url("/assets/imagenes/boton-play.jpg");
+    background-image: url("../imagenes/boton-play.jpg");
     background-position: center; /* Center the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 }
