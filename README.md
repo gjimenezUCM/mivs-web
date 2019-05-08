@@ -11,5 +11,5 @@ El MIVS es resultado del proyecto Nº 197 de la convocatoria Innova-Docencia del
 - Juan A. Recio García.
 - Pedro A. González Calero.
 - Guillermo Jiménez Díaz (Director).
-
-También queremos dar las gracias a Carlos Martínez Pérez y a Elena Fernández Saavedra por su especial implicación en el proyecto.
+- Carlos Martínez Pérez (desarrollador).
+- Elena Fernández Saavedra (desarrolladora).
